@@ -261,7 +261,7 @@ a {
     padding:10px 30px;
     margin: 10px;
 
-    margin-left: 21%;
+    margin-left: 19%;
     border-radius: 50px;
     width: 100px;
     height: 100px;
@@ -272,8 +272,8 @@ a {
 #hero a span{
     position: absolute;
     color: #fff;
-    width: 15%;
-    height: 4%;
+    width: 30%;
+    height: 3.5%;
     background: orangered;
     display: flex;
     justify-content: center;
@@ -621,6 +621,15 @@ svg {
         text-align: left;
         padding-left: 20px;
     }
+
+    #hero a{
+        margin-left: 25%;
+    }
+
+    #hero a span{
+        width: 25%;
+        height: 4%;
+    }
 }
 
 /*End of media query for tablets*/
@@ -649,6 +658,7 @@ svg {
         display:none;
     }
     
+    
 
 }
 
@@ -657,5 +667,19 @@ svg {
 @media only screen and (max-width: 480px){
     #hero h1{
         font-size: 4rem;
+    }
+
+    
+}
+
+
+@media only screen and (min-width: 1200px){
+    #hero a{
+        margin-left: 21%;
+    }
+
+    #hero a span{
+        width: 15%;
+        height: 3.5%;
     }
 }
